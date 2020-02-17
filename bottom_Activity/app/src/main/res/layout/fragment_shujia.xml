@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding"
+        android:paddingTop="@dimen/default_padding">
+        <TextView
+            android:id="@+id/read_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/bigger_title"
+            android:text="0"
+            android:paddingLeft="@dimen/default_padding"
+            />
+        <TextView
+            android:id="@+id/read_time_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/default_leter"
+            app:layout_constraintTop_toBottomOf="@id/read_time"
+            android:text="今日已读(分钟)"
+            />
+        <TextView
+            android:id="@+id/bianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="编辑"
+            android:textSize="@dimen/bigest_leter"
+            app:layout_constraintTop_toTopOf="@id/read_time"
+            app:layout_constraintBottom_toBottomOf="@id/read_time"
+            android:paddingLeft="@dimen/default_padding"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleRead</string>
+    <string name="title_home">首页</string>
+    <string name="title_remen">热门</string>
+    <string name="title_shujia">书架</string>
+    <string name="title_mine">我的</string>
+</resources>

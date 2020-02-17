@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/shouye"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_remen"
+        android:icon="@mipmap/remen"
+        android:title="@string/title_remen" />
+
+    <item
+        android:id="@+id/navigation_shujia"
+        android:icon="@mipmap/shujia"
+        android:title="@string/title_shujia" />
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@mipmap/mine"
+        android:title="@string/title_mine" />
+
+</menu>
